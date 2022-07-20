@@ -1,9 +1,5 @@
-
-
 /* Media Query */
-
-
-.div1{
+.div1 {
   background-color: #cbf5dd;
   margin: 0px;
   padding-top: 20px;
@@ -11,7 +7,7 @@
   padding-right: 0px;
 }
 
-.div2{
+.div2 {
   background-color: #cbf5dd;
   margin: 0px;
   height: 200px;
@@ -21,23 +17,22 @@
   padding-right: 20px;
 }
 
-.imgbtn{
+.imgbtn {
   height: 100px;
   width: 100px;
   padding: 20px;
   justify-content: center;
-  border-radius:100px;
+  border-radius: 100px;
   text-align: center;
   background-color: black;
-
 }
 
-.link{
-	padding: 15px 30px;
-	margin: 10px;
-	display: inline-block;
-	color: white;
-	background: black;
+.link {
+  padding: 15px 30px;
+  margin: 10px;
+  display: inline-block;
+  color: white;
+  background: black;
   text-decoration: none;
 }
 
@@ -50,17 +45,16 @@ hr {
   background-color: #faecde;
   width: 80%;
   margin: 50px auto 20px auto;
-
 }
-.link:hover{
-	text-decoration: none;
-	color: white;
+
+.link:hover {
+  text-decoration: none;
+  color: white;
 }
 
 /*===================*/
 /* SHRINK EFFECT
 /*===================*/
-
 .shrink-on-hover {
   display: inline-block;
   vertical-align: middle;
@@ -72,98 +66,106 @@ hr {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
+
 .shrink-on-hover:hover, .shrink-on-hover:focus, .shrink-on-hover:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-html,body{
+html, body {
   width: 100%;
   background-color: white;
-
 }
 
-h1{
+h1 {
   text-align: center;
   font-size: 80px;
   margin-top: 40px;
-font-family: 'Sacramento', cursive;
+  font-family: 'Sacramento', cursive;
 }
 
-h3{
+h3 {
   margin-left: auto;
   margin-top: 40px;
   margin-right: auto;
   text-align: center;
   font-size: 20px;
-  width: 20%
-  position: absolute;
+  width: 20% position: absolute;
 }
-.mountain{
+
+.mountain {
   display: block;
-    margin-left: auto;
-    margin-top: 60px;
-    margin-right: auto;
-    width: 40%;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-right: auto;
+  width: 40%;
 }
 
-
-#cloud1{
+#cloud1 {
   float: left;
   display: inline;
   width: 200px;
   margin-top: 50px
 }
 
-#cloud2{
+#cloud2 {
   display: block;
   width: 200px;
   margin: 150px auto 0px auto;
-
 }
 
-#cloud3{
+#cloud3 {
   float: right;
   display: inline;
   width: 200px;
   margin-top: 50px
 }
 
-.container-fluid{
+.container-fluid {
   height: 50px;
 }
 
 @media (max-width: 1200px) {
-
-
-  .mountain{
+  .mountain {
     display: block;
-      margin-left: auto;
-      margin-top: 60px;
-      margin-right: auto;
-      width: 80%;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-right: auto;
+    width: 80%;
   }
 
-
-  #cloud1{
-    float: left;
-    display: inline;
-    width: 200px;
-    margin-top: 90px
+  h1 {
+    text-align: center;
+    font-size: 120px;
+    margin-top: 40px;
+    font-family: 'Sacramento', cursive;
   }
 
-  #cloud2{
-    display: block;
-    width: 200px;
-    margin: 150px auto 0px auto;
-
-  }
-
-  #cloud3{
+  #cloud3 {
     float: right;
     display: inline;
     width: 200px;
-    margin-top: 90px
+    margin-top: 200px
   }
+}
 
+#cloud1 {
+  float: left;
+  display: inline;
+  width: 200px;
+  margin-top: 90px
+}
+
+#cloud2 {
+  display: block;
+  width: 200px;
+  margin: 150px auto 0px auto;
+}
+
+#cloud3 {
+  float: right;
+  display: inline;
+  width: 200px;
+  margin-top: 90px
+}
 }
