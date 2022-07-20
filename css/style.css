@@ -1,9 +1,14 @@
+
+
+/* Media Query */
+
+
 .div1{
   background-color: #cbf5dd;
   margin: 0px;
   padding-top: 20px;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 0px;
 }
 
 .div2{
@@ -74,6 +79,7 @@ hr {
 
 body{
   margin: 0px;
+  background-color: white;
 }
 
 h1{
@@ -120,4 +126,37 @@ h3{
   display: inline;
   width: 200px;
   margin-top: 50px
+}
+
+.container-fluid{
+  height: 50px;
+}
+
+@media (max-width: 500px) {
+  .container-fluid{
+    height: 100px;
+  }
+
+
+  #cloud1{
+    float: left;
+    display: inline;
+    width: 200px;
+    margin-top: 90px
+  }
+
+  #cloud2{
+    display: block;
+    width: 200px;
+    margin: 150px auto 0px auto;
+
+  }
+
+  #cloud3{
+    float: right;
+    display: inline;
+    width: 200px;
+    margin-top: 90px
+  }
+
 }
