@@ -77,9 +77,10 @@ hr {
   transform: scale(1.1);
 }
 
-body{
-  margin: 0px;
+html,body{
+  width: 100%;
   background-color: white;
+
 }
 
 h1{
@@ -132,10 +133,8 @@ h3{
   height: 50px;
 }
 
-@media (max-width: 500px) {
-  .container-fluid{
-    height: 100px;
-  }
+@media (max-width: 1200px) {
+
 
   .mountain{
     display: block;
