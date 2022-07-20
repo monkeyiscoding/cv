@@ -129,7 +129,7 @@ h3 {
   .mountain {
     display: block;
     margin-left: auto;
-    margin-top: 60px;
+    margin-top: 200px;
     margin-right: auto;
     width: 80%;
   }
@@ -141,31 +141,36 @@ h3 {
     font-family: 'Sacramento', cursive;
   }
 
+
+
+  #cloud1 {
+    float: left;
+    display: inline;
+    width: 200px;
+    margin-top: 100px
+  }
+
+  #cloud2 {
+    display: block;
+    width: 200px;
+    margin: 250px auto 0px auto;
+  }
+
   #cloud3 {
     float: right;
     display: inline;
     width: 200px;
-    margin-top: 200px
+    margin-top: 100px
   }
-}
 
-#cloud1 {
-  float: left;
-  display: inline;
-  width: 200px;
-  margin-top: 90px
-}
 
-#cloud2 {
-  display: block;
-  width: 200px;
-  margin: 150px auto 0px auto;
-}
+  .div1 {
+    background-color: #cbf5dd;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
+  }
 
-#cloud3 {
-  float: right;
-  display: inline;
-  width: 200px;
-  margin-top: 90px
-}
+
 }
