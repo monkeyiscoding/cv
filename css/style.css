@@ -89,7 +89,7 @@ h3 {
   margin-top: 40px;
   margin-right: auto;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   width: 20% position: absolute;
 }
 
@@ -125,13 +125,6 @@ h3 {
   height: 50px;
 }
 
-.textCodingStuff {
-  margin: 20px 20px 20px 20px;
-  color: #a8a8a7;
-  font-size: 25px;
-  font-family: 'Edu NSW ACT Foundation', cursive;
-}
-
 @media (max-width: 1200px) {
   .mountain {
     display: block;
@@ -143,17 +136,12 @@ h3 {
 
   h1 {
     text-align: center;
-    font-size: 200px;
-    margin-top: 80px;
+    font-size: 120px;
+    margin-top: 40px;
     font-family: 'Sacramento', cursive;
   }
 
-  .textCodingStuff {
-    margin: 20px 20px 20px 20px;
-    color: #a8a8a7;
-    font-size: 40px;
-    font-family: 'Edu NSW ACT Foundation', cursive;
-  }
+
 
   #cloud1 {
     float: left;
@@ -175,6 +163,7 @@ h3 {
     margin-top: 100px
   }
 
+
   .div1 {
     background-color: #cbf5dd;
     margin: 0px;
@@ -182,4 +171,6 @@ h3 {
     padding-left: 20px;
     padding-right: 0px;
   }
+
+
 }
