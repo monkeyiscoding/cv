@@ -180,15 +180,19 @@ h3 {
     width: 80%;
   }
 
+  #message{
+    height: 120px
+  }
+
   .input{
     display: block;
     border: 0px;
     box-shadow: 0px 5px 5px #c4c4c2;
-    width: 70%;
-    height: 70px;
+    width: 80%;
+    height: 120px;
     padding-left: 10px;
     margin: 20px auto 0px auto;
-    font-size: 20px;
+    font-size: 40px;
 
   }
 
