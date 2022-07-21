@@ -1,33 +1,55 @@
 /* Media Query */
-.messageDialog{
-/* Hidden by default */
-display: none;
-  position: fixed; /* Stay in place */
-  z-index: 10; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+.messageDialog {
+  /* Hidden by default */
+  display: none;
+  position: fixed;
+  /* Stay in place */
+  z-index: 10;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
   left: 0;
   top: 0;
-
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
-.input{
+.input {
   display: block;
   border: 0px;
   box-shadow: 0px 5px 5px #c4c4c2;
   width: 40%;
   height: 50px;
-  padding-left: 10px;
   margin: 20px auto 0px auto;
   font-size: 18px;
-
 }
 
+.textarea {
+  display: block;
+  border: 0px;
+  box-shadow: 0px 5px 5px #c4c4c2;
+  width: 40%;
+  height: 100px;
+  margin: 20px auto 0px auto;
+  font-size: 18px;
+}
+
+.input-content {
+  border: 0px;
+  width: 100%;
+  height: 50px;
+  margin: auto auto auto auto;
+  padding-left: 40px;
+  font-size: 18px;
+}
 
 .dialog-content {
   background-color: #fefefe;
@@ -171,6 +193,13 @@ h3 {
   font-family: 'Edu NSW ACT Foundation', cursive;
 }
 
+.input-icon {
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 10px;
+
+}
+
 @media (max-width: 1200px) {
   .mountain {
     display: block;
@@ -180,22 +209,49 @@ h3 {
     width: 80%;
   }
 
-  #message{
-    height: 120px;
+  .textarea {
+    display: block;
+    border: 0px;
+    box-shadow: 0px 5px 5px #c4c4c2;
+    width: 80%;
+    height: 200px;
+    margin: 20px auto 0px auto;
     font-size: 40px;
-    width: 60%;
   }
 
-  .input{
+  #message {
+    height: 100px;
+    font-size: 40px;
+    width: 40%;
+  }
+  #sendMessage {
+    height: 100px;
+    font-size: 40px;
+    width: 80%;
+  }
+  .input-icon {
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 20px;
+  }
+
+  .input {
     display: block;
     border: 0px;
     box-shadow: 0px 5px 5px #c4c4c2;
     width: 80%;
     height: 120px;
-    padding-left: 10px;
     margin: 20px auto 0px auto;
     font-size: 40px;
+  }
 
+  .input-content {
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    margin: auto auto auto auto;
+    padding-left: 80px;
+    font-size: 40px;
   }
 
   .dialog-content {
@@ -209,12 +265,10 @@ h3 {
     width: 90%;
   }
 
-
   h1 {
     text-align: center;
     font-size: 150px;
     margin-top: 80px;
-
   }
 
   .textCodingStuff {

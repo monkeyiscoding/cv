@@ -125,20 +125,30 @@
   <div style="text-align: center;">
 
     <h1 style="margin: 80px auto 0px auto; font-size: 80px; font-family: serif;">Need Something</h1>
-    <button id= "message" style="margin-top: 50px;" type="button" class="btn-dark btn-lg" name="button"><i style="margin-right: 10px;" class="fa-brands fa-rocketchat"></i>Message Me</button>
+    <button id="message" style="margin-top: 50px;" type="button" class="btn-dark btn-lg" name="button"><i style="margin-right: 10px;" class="fa-brands fa-rocketchat"></i>Message Me</button>
   </div>
 
   <div id="dialog" class="messageDialog">
 
     <div id="dialogContent" class="dialog-content">
-      <span><img id="closedialog"style="float: right;height:50px;"src="images/close.png" alt=""></span>
+      <span><img id="closedialog" style="float: right;height:50px;" src="images/close.png" alt=""></span>
 
       <h1>Drop your message</h1>
 
-      <input style="margin-top: 70px;"class = "input" type="text" name="username" placeholder="Enter your name">
-      <input class = "input" type="email" name="username" placeholder="Email for get replay">
-      <textarea style="height: 100px;"class = "input" type="tel" name="username" placeholder="Enter your message here"></textarea>
-      <button id= "message" style="margin-top: 50px;margin-bottom: 40px;width: 40%;" type="button" class="btn-dark btn-lg" name="button">Send Message<i style="margin-left: 10px;"class="fa fa-paper-plane"></i></button>
+        <div class="input" style="margin-top: 70px; text-align: left;">
+          <i  class="fa fa-user-alt input-icon" ></i>
+          <input class="input-content" type="text" name="username" placeholder="Enter your name">
+        </div>
+
+        <div class="input" style="margin-top: 20px; text-align: left;">
+          <i class="fa fa-envelope input-icon"></i>
+          <input class="input-content" type="text" name="username" placeholder="Email for get reply">
+        </div>
+
+        <textarea class ="textarea"style=" padding-left: 20px; padding-top: 20px;"type="tel" name="username" placeholder="Enter your message here"></textarea>
+        <button id="sendMessage" style="margin-top: 50px;margin-bottom: 40px;" type="button" class="btn-dark btn-lg" name="button">Send Message<i style="margin-left: 10px;" class="fa fa-paper-plane"></i></button>
+
+
 
     </div>
 
