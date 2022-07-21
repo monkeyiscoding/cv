@@ -52,7 +52,7 @@
 }
 
 .dialog-content {
-  background-color: #fefefe;
+  background-color: #f5f4f2;
   margin: auto;
   text-align: center;
   z-index: 20;
@@ -200,6 +200,11 @@ h3 {
 
 }
 
+#closedialog{
+  float: right;
+  height:50px;
+}
+
 @media (max-width: 1200px) {
   .mountain {
     display: block;
@@ -207,6 +212,11 @@ h3 {
     margin-top: 200px;
     margin-right: auto;
     width: 80%;
+  }
+
+  #closedialog{
+    float: right;
+    height:100px;
   }
 
   .textarea {
@@ -225,10 +235,12 @@ h3 {
     width: 40%;
   }
   #sendMessage {
-    height: 100px;
+    height: 130px;
     font-size: 40px;
     width: 80%;
   }
+
+
   .input-icon {
     position: absolute;
     margin-top: 42px;
@@ -255,7 +267,7 @@ h3 {
   }
 
   .dialog-content {
-    background-color: #fefefe;
+  background-color: #f5f4f2;
     margin: auto;
     text-align: center;
     z-index: 20;
