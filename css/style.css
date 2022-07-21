@@ -180,11 +180,35 @@ h3 {
     width: 80%;
   }
 
+  .input{
+    display: block;
+    border: 0px;
+    box-shadow: 0px 5px 5px #c4c4c2;
+    width: 70%;
+    height: 70px;
+    padding-left: 10px;
+    margin: 20px auto 0px auto;
+    font-size: 20px;
+
+  }
+
+  .dialog-content {
+    background-color: #fefefe;
+    margin: auto;
+    text-align: center;
+    z-index: 20;
+    /* background-image: url("https://png.pngtree.com/background/20210706/original/pngtree-hd-brick-wall-background-picture-image_206286.jpg"); */
+    padding: 20px;
+    border: 10px solid #888;
+    width: 90%;
+  }
+
+
   h1 {
     text-align: center;
-    font-size: 200px;
+    font-size: 150px;
     margin-top: 80px;
-    font-family: 'Sacramento', cursive;
+
   }
 
   .textCodingStuff {
