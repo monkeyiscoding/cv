@@ -1,163 +1,4 @@
 /* Media Query */
-@media (max-width: 1200px) {
-  .review-card {
-    height: 200px;
-    width: 30%;
-    margin: 40px 0px 0px 0px;
-    z-index: 1;
-    background-color: white;
-    box-shadow: 0px 0px 20px #f5f4f2;
-  }
-
-  .mountain {
-    display: block;
-    margin-left: auto;
-    margin-top: 200px;
-    margin-right: auto;
-    width: 80%;
-  }
-
-  .bottom-1 {
-    background-color: white;
-    height: 400px;
-    box-shadow: 0px 0px 20px #f5f4f2;
-    margin-top: 120px;
-    text-align: center;
-  }
-
-  #closedialog {
-    float: none;
-    margin-top: 20px;
-    height: 70px;
-  }
-
-  .textarea {
-    display: block;
-    border: 0px;
-    box-shadow: 0px 5px 5px #c4c4c2;
-    width: 80%;
-    height: 200px;
-    margin: 20px auto 0px auto;
-    font-size: 40px;
-  }
-
-  #message {
-    height: 100px;
-    font-size: 40px;
-    width: 40%;
-  }
-
-  #sendMessage {
-    height: 130px;
-    font-size: 40px;
-    width: 80%;
-  }
-
-  .input-icon {
-    position: absolute;
-    margin-top: 42px;
-    margin-left: 20px;
-  }
-
-  .input {
-    display: block;
-    border: 0px;
-    box-shadow: 0px 5px 5px #c4c4c2;
-    width: 80%;
-    height: 120px;
-    margin: 20px auto 0px auto;
-    font-size: 40px;
-  }
-
-  .input-content {
-    border: 0px;
-    width: 100%;
-    height: 100%;
-    margin: auto auto auto auto;
-    padding-left: 80px;
-    font-size: 40px;
-  }
-
-  .dialog-content {
-    background-color: #f5f4f2;
-    margin: auto;
-    text-align: center;
-    z-index: 20;
-    /* background-image: url("https://png.pngtree.com/background/20210706/original/pngtree-hd-brick-wall-background-picture-image_206286.jpg"); */
-    padding: 20px;
-    border: 10px solid #888;
-    width: 90%;
-  }
-
-  h1 {
-    text-align: center;
-    font-size: 150px;
-    margin-top: 80px;
-  }
-
-  .textCodingStuff {
-    margin: 20px 20px 20px 20px;
-    color: #a8a8a7;
-    font-size: 40px;
-    font-family: 'Edu NSW ACT Foundation', cursive;
-  }
-
-  #cloud1 {
-    float: left;
-    display: inline;
-    width: 200px;
-    margin-top: 100px
-  }
-
-  #cloud2 {
-    display: block;
-    width: 200px;
-    margin: 250px auto 0px auto;
-  }
-
-  #cloud3 {
-    float: right;
-    display: inline;
-    width: 200px;
-    margin-top: 100px
-  }
-
-  .div1 {
-    background-color: #cbf5dd;
-    margin: 0px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 0px;
-  }
-}
-
-.bottom-content {
-  padding-left: 80px;
-  padding-top: 40px;
-}
-
-.review-card {
-  height: 600px;
-  width: 30%;
-  margin: 40px 0px 0px 0px;
-  z-index: 1;
-  background-color: white;
-  box-shadow: 0px 0px 20px #f5f4f2;
-}
-
-.bottom-1 {
-  background-color: white;
-  height: 400px;
-  text-align: center;
-  box-shadow: 0px 0px 20px #f5f4f2;
-  margin-top: 120px;
-}
-
-.bottom-2 {
-  background-color: #cbf5dd;
-  height: 400px
-}
-
 .messageDialog {
   /* Hidden by default */
   display: none;
@@ -356,15 +197,172 @@ h3 {
   position: absolute;
   margin-top: 16px;
   margin-left: 10px;
+
 }
 
-#sendMessage {
-  height: 80px;
-  font-size: 20px;
-  width: 40%;
-}
-
-#closedialog {
+#closedialog{
   float: right;
-  height: 50px;
+  height:50px;
+}
+
+.bottom-content {
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
+.review-card {
+  height: 600px;
+  width: 50%;
+  margin: 40px 0px 0px 0px;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0px 0px 20px #f5f4f2;
+}
+
+.bottom-1 {
+  background-color: white;
+  height: 400px;
+  box-shadow: 0px 0px 20px #f5f4f2;
+  margin-top: 120px;
+}
+
+.bottom-2 {
+  background-color: #cbf5dd;
+  height: 400px
+}
+
+
+@media (max-width: 900px) {
+  .mountain {
+    display: block;
+    margin-left: auto;
+    margin-top: 200px;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  #closedialog {
+    float: none;
+    margin-top: 20px;
+    height: 70px;
+  }
+
+
+  .bottom-1 {
+    background-color: white;
+    height: 400px;
+    box-shadow: 0px 0px 20px #f5f4f2;
+    margin-top: 120px;
+    text-align: center;
+
+  }
+
+ .review-card {
+    height: 200px;
+    width: 70%;
+    margin: 40px auto 0px auto;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0px 0px 20px #f5f4f2;
+  }
+
+  .textarea {
+    display: block;
+    border: 0px;
+    box-shadow: 0px 5px 5px #c4c4c2;
+    width: 80%;
+    height: 200px;
+    margin: 20px auto 0px auto;
+    font-size: 40px;
+  }
+
+  #message {
+    height: 100px;
+    font-size: 40px;
+    width: 40%;
+  }
+  #sendMessage {
+    height: 130px;
+    font-size: 40px;
+    width: 80%;
+  }
+
+
+  .input-icon {
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 20px;
+  }
+
+  .input {
+    display: block;
+    border: 0px;
+    box-shadow: 0px 5px 5px #c4c4c2;
+    width: 80%;
+    height: 120px;
+    margin: 20px auto 0px auto;
+    font-size: 40px;
+  }
+
+  .input-content {
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    margin: auto auto auto auto;
+    padding-left: 80px;
+    font-size: 40px;
+  }
+
+  .dialog-content {
+  background-color: #f5f4f2;
+    margin: auto;
+    text-align: center;
+    z-index: 20;
+    /* background-image: url("https://png.pngtree.com/background/20210706/original/pngtree-hd-brick-wall-background-picture-image_206286.jpg"); */
+    padding: 20px;
+    border: 10px solid #888;
+    width: 90%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 150px;
+    margin-top: 80px;
+  }
+
+  .textCodingStuff {
+    margin: 20px 20px 20px 20px;
+    color: #a8a8a7;
+    font-size: 40px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+  }
+
+  #cloud1 {
+    float: left;
+    display: inline;
+    width: 200px;
+    margin-top: 100px
+  }
+
+  #cloud2 {
+    display: block;
+    width: 200px;
+    margin: 250px auto 0px auto;
+  }
+
+  #cloud3 {
+    float: right;
+    display: inline;
+    width: 200px;
+    margin-top: 100px
+  }
+
+  .div1 {
+    background-color: #cbf5dd;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+
 }

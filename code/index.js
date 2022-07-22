@@ -10,9 +10,10 @@ $("#explore").click(function(){
 });
 
 $("#message").click(function(){
-  $(".messageDialog").css("display","block")
+  $("#dialog").fadeIn();
+
 });
 
 $("#closedialog").click(function(){
-  $("#dialog").css("display","none");
+  $("#dialog").fadeOut();
 });
