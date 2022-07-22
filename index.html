@@ -128,26 +128,44 @@
     <button id="message" style="margin-top: 50px;" type="button" class="btn-dark btn-lg" name="button"><i style="margin-right: 10px;" class="fa-brands fa-rocketchat"></i>Message Me</button>
   </div>
 
+
+
+
+
+
+<!-- Dialog -->
+
+
   <div id="dialog" class="messageDialog">
 
     <div id="dialogContent" class="dialog-content">
       <span><img id="closedialog" src="images/close.png" alt=""></span>
 
-      <h2 style="font-size: 50px; margin-top: 50px;">Drop your message</h2>
+      <div id="messageContent" style="text-align: center; display: block;">
+        <h2 style="font-size: 50px; margin-top: 50px;">Drop your message</h2>
 
-      <div class="input" style="margin-top: 70px; text-align: left;">
-        <i class="fa fa-user-alt input-icon"></i>
-        <input class="input-content" type="text" name="username" placeholder="Enter your name">
+        <div class="input" style="margin-top: 70px; text-align: left;">
+          <i class="fa fa-user-alt input-icon"></i>
+          <input id="username"class="input-content" type="text" name="username" placeholder="Enter your name">
+        </div>
+
+        <div class="input" style="margin-top: 20px; text-align: left;">
+          <i class="fa fa-envelope input-icon"></i>
+          <input id="email"class="input-content" type="text" name="username" placeholder="Email for get reply">
+        </div>
+
+        <textarea id="messageText" class="textarea" style=" padding-left: 20px; padding-top: 20px;" type="tel" name="username" placeholder="Enter your message here"></textarea>
+        <button id="sendMessage" style="margin-top: 50px;margin-bottom: 40px;" type="button" class="btn-dark btn-lg" name="button">Send Message<i style="margin-left: 10px;" class="fa fa-paper-plane"></i></button>
+
+
       </div>
 
-      <div class="input" style="margin-top: 20px; text-align: left;">
-        <i class="fa fa-envelope input-icon"></i>
-        <input class="input-content" type="text" name="username" placeholder="Email for get reply">
-      </div>
+<div id="messageDone" style="text-align: center; display: none">
 
-      <textarea class="textarea" style=" padding-left: 20px; padding-top: 20px;" type="tel" name="username" placeholder="Enter your message here"></textarea>
-      <button id="sendMessage" style="margin-top: 50px;margin-bottom: 40px;" type="button" class="btn-dark btn-lg" name="button">Send Message<i style="margin-left: 10px;" class="fa fa-paper-plane"></i></button>
+  <img style="height: 200px; margin: 10px 0px 10px 0px;" src="gifs/done.gif" alt="">
+  <h2 style="margin: 20px 0px 20px 0px;">Message sent successfully</h2>
 
+</div>
 
 
     </div>
@@ -155,6 +173,8 @@
   </div>
 
 
+
+<!-- Contact -->
   <section>
     <div class="bottom-1 row">
 
@@ -207,12 +227,38 @@
     <div class="bottom-2 row ">
 
       <div>
-        <h3c style="font-family: serif;">Thnaks for visiting my website <br> have a good day!</h3>
+        <h3c style="font-family: serif; font-size: 30px;">Thnaks for visiting my website <br> have a good day!</h3>
       </div>
 
 
     </div>
   </section>
+<div id="snackbar" style="z-index: 50;">Some text some message..</div>
+
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+
+  <script id = "MainScript"type="module">
+
+
+
+    var firebaseConfig = {
+      apiKey: "AIzaSyApQxe7HkWGuQeVTpkvp99RuuAsiSlZsJs",
+      authDomain: "web-developement-a469c.firebaseapp.com",
+      databaseURL: "https://web-developement-a469c-default-rtdb.firebaseio.com",
+      projectId: "web-developement-a469c",
+      storageBucket: "web-developement-a469c.appspot.com",
+      messagingSenderId: "95061394281",
+      appId: "1:95061394281:web:490232bad21de4449073f8",
+      measurementId: "G-85391JHEQ0"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+  </script>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="code/index.js" charset="utf-8"></script>
