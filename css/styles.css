@@ -267,7 +267,7 @@ h3 {
   }
 
   .review-card {
-    height: 400px;
+    height: 600px;
     width: 40%;
     margin: 40px auto 0px auto;
     z-index: 1;
@@ -385,11 +385,11 @@ h3 {
 
   .bottom-2 {
     background-color: #cbf5dd;
-    height: 400px;
+    height: 600px;
     text-align: left;
     text-align: center;
     padding-left: 0px;
-    padding-top: 300px;
+    padding-top: 350px;
 
   }
 
